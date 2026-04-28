@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
+    'djongo',
     'octofit_tracker',
     'django.contrib.admin',
     'django.contrib.auth',
